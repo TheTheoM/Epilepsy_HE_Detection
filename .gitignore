@@ -1,0 +1,91 @@
+# python bytecode and builds
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# python tooling caches
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.pyre/
+.pytype/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+.cache/
+site/
+
+# notebooks
+.ipynb_checkpoints/
+
+# logs and temp
+*.log
+logs/
+*.tmp
+tmp/
+temp/
+*.swp
+*.swo
+
+# secrets and env files
+.env
+.env.*
+.envrc
+*.pem
+*.key
+*.crt
+*.der
+*.p12
+*.pfx
+
+# your key cache
+.keycache/
+.keycahce/
+keycache/
+keycache*/
+
+# editors and os junk
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# latex build outputs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.run.xml
+*.nav
+*.snm
+*.xdv
+_minted*/
+
+# project artifacts
+artifacts/
